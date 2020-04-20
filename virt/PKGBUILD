@@ -1,0 +1,19 @@
+pkgname=deadPix3l-virt
+pkgver=0.0.1
+pkgrel=1
+arch=('any')
+url="https://deadPix3l.github.io"
+license=('custom:unknown')
+optdepends=( 'virt-viewer' )
+depends=(
+    'deadPix3l-base'
+    'qemu'
+    'kvm'
+    'libvirt'
+    'podman'
+    'buildah'
+)
+
+package() {
+  true
+}
