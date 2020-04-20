@@ -1,0 +1,66 @@
+pkgname=deadPix3l-desktop
+pkgver=0.0.1
+pkgrel=1
+arch=('any')
+url="https://deadPix3l.github.io"
+license=('custom:unknown')
+depends=(
+    'deadPix3l-base'
+    'xorg-server'
+    'xorg-bdftopcf'
+    'xorg-docs'
+    'xorg-iceauth'
+    'xorg-luit'
+    'xorg-mkfontscale'
+    'xorg-sessreg'
+    'xorg-setxkbmap'
+    'xorg-smproxy'
+    'xorg-x11perf'
+    'xorg-xauth'
+    'xorg-xbacklight'
+    'xorg-xcmsdb'
+    'xorg-xcursorgen'
+    'xorg-xdpyinfo'
+    'xorg-xdriinfo'
+    'xorg-xev'
+    'xorg-xgamma'
+    'xorg-xhost'
+    'xorg-xinit'
+    'xorg-xinput'
+    'xorg-xkbcomp'
+    'xorg-xkbevd'
+    'xorg-xkbutils'
+    'xorg-xkill'
+    'xorg-xlsatoms'
+    'xorg-xlsclients'
+    'xorg-xmodmap'
+    'xorg-xpr'
+    'xorg-xprop'
+    'xorg-xrandr'
+    'xorg-xrdb'
+    'xorg-xrefresh'
+    'xorg-xset'
+    'xorg-xsetroot'
+    'xorg-xvinfo'
+    'xorg-xwd'
+    'xorg-xwininfo'
+    'xorg-xwud'
+    'picom'
+    'i3-gaps'
+    'i3lock'
+    'i3status'
+    'bspwm'
+    'sxhkd'
+    'polybar'
+    'feh'
+    'rofi'
+    'unclutter'
+    'dunst'
+    'firefox'
+    'rxvt-unicode'
+    'termite'
+)
+
+package() {
+  true
+}

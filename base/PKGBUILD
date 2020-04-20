@@ -1,0 +1,23 @@
+pkgname=deadPix3l-base
+pkgver=0.0.1
+pkgrel=1
+arch=('any')
+url="https://deadPix3l.github.io"
+license=('custom:unknown')
+depends=(
+    'base'
+    'alsa-utils'
+    'pcsc-tools'
+    'ccid'
+    'opensc'
+    'vim'
+    'tmux'
+    'rsync'
+    'yaourt'
+    'intel-ucode'
+    'man-pages'
+)
+
+package() {
+  true
+}

@@ -1,0 +1,34 @@
+pkgname=deadPix3l-devel
+pkgver=0.0.1
+pkgrel=1
+arch=('any')
+url="https://deadPix3l.github.io"
+license=('custom:unknown')
+depends=(
+    'deadPix3l-base'
+    'python2'
+    'python3'
+    'python-yaml'
+    'python-beautifulsoup4'
+    'python-requests'
+    'ruby'
+    'ruby-rspec'
+    'perl'
+    'gcc'
+    'clang'
+    'cppunit'
+    'git'
+    'gnu-netcat'
+    'httpie'
+    'wget'
+    'make'
+    'automake'
+    'autoconf'
+    'm4'
+    'bison'
+    'flex'
+)
+
+package() {
+  true
+}

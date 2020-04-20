@@ -1,0 +1,38 @@
+pkgname=deadPix3l-headless
+pkgver=0.0.1
+pkgrel=1
+arch=('any')
+url="https://deadPix3l.github.io"
+license=('custom:unknown')
+depends=(
+    'deadPix3l-base'
+    'acpi'
+    'alsa-utils'
+    'bc'
+    'mpd'
+    'ncmpcpp'
+    'viu'
+    'tpp'
+    'googler'
+#    'howdoi'
+#    'cheat'
+    'pass'
+    'mc'
+    'ranger'
+    'netctl'
+    'wpa_supplicant'
+    'openssh'
+    'irssi'
+    'newsboat'
+    'vim'
+    'tmux'
+    'screen'
+    'neomutt'
+    'notmuch'
+    'offlineimap'
+    'tcpdump'
+)
+
+package() {
+  true
+}
